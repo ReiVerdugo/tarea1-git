@@ -1,0 +1,46 @@
+PREGUNTA 3
+Reinaldo Verdugo
+10-10757
+
+----
+working directory:
+
+"Lugar" en el disco donde se encuentran los archivos que se pueden usar o 
+modificar para luego añadirlos al staging area (y posteriormente almacenarlos
+en Git). Es una copia de una de las versiones del proyecto.
+
+
+----
+index:
+Es un archivo binario, que en sí representa un árbol de trabajo virtual que 
+almacena una lista de 'paths' y sus nombres. Sirve como 'staging area' (o como
+una zona intermedia) para escribir el siguiente objeto del árbol al que se le hará 
+commit. 
+
+
+----
+local repo:
+El local repo está compuesto por tres árboles administrados por git. Los dos
+primeros son el working directory y el index definidos anteriormente. El tercero
+es el HEAD, que siempre apunta al último commit realizado.
+Se llama local porque los archivos del local repo aún se encuentran en el disco.
+
+----
+remote repo:
+Los repositorios remotos, a diferencia de los locales, son versiones del proyecto
+que ya se encuentran en internet. Para enviar los archivos locales a un repositorio
+remoto se hace uso del comando 'push', y se usa 'pull' para recibirlos.
+
+
+----
+dirty working tree:
+Se dice que un árbol de trabajo está sucio si contiene modificaciones que no han sido
+'commiteadas' a la rama (o branch) actual.
+
+
+----
+merge conflict:
+El merge es un proceso en el que se unen (usualmente de forma automática) el contenido
+de dos branches o ramas diferentes, trayendo el contenido del brach deseado al branch
+actual. Cuando los cambios no se pueden identificar automáticamente, y Git no puede decidir
+cómo unirlos, ocurre un 'merge conflict' el cual debe ser resuelto manualmente. 
