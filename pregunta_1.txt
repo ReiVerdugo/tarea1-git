@@ -1,0 +1,11 @@
+PREGUNTA 1
+Reinaldo Verdugo 10-10757
+
+Hash del commit: d11cbfa1fe2987345b0c338a7b251ceb68111f07
+https://github.com/ReiVerdugo/tarea1-git/commit/d11cbfa1fe2987345b0c338a7b251ceb68111f07
+
+¿Para qué es útil colocar el Hash de un commit?
+
+Los hashes funcionan como identificadores de objetos en Git y nos permiten movernos entre commits, 
+lo cual es, pues, burda de útil para regresar a versiones anteriores que no tenían conflictos, por
+ejemplo.
